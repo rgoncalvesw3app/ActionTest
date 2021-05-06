@@ -1,0 +1,38 @@
+﻿@model  IEnumerable<ActionTest.Model.Database.Contato>
+
+<div class="panel-body" id="DivContato">
+    <div class="content clearfix input-sm">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label class="control-label col-md">Nome</label>
+                    <input class="form-control text-box single-line input-sm required_CONT" id="txtNome" name="txtNome" placeholder="Digite seu nome" type="text" maxlength="100" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-2">
+                    <label class="control-label col-md">Nº Telefone</label>
+                    <input class="form-control text-box cpf single-line input-sm fone required_CONT" id="txtTelefone" name="txtTelefone" placeholder="Digite o telefone" type="text" maxlength="15" />
+                </div>
+                <div class="col-sm-2">
+                    <label class="control-label">Nº Celular</label>
+                    <input class="form-control text-box single-line input-sm fone required_CONT"  id="txtCelular" name="txtCelular" placeholder="Digite o celular" type="text" maxlength="15" />
+                </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-sm btn-primary btn space-30" type="button" id="AdicionarContato" onclick="Salvar_Contato();">
+                        <i class="fa fa-plus-circle fa-lg"></i> &nbsp;
+                        Adicionar Contato
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            &nbsp;
+        </div>
+    </div>
+
+</div>

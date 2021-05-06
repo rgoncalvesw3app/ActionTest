@@ -1,0 +1,158 @@
+﻿@model ActionTest.Model.Database.Contato
+@{
+    ViewBag.Title = "Action - Avaliação Técnica";
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { id = "myForm" }))
+{
+    <div class="row wrapper border-bottom white-bg page-heading">
+        <div class="col-sm-8">
+            <br />
+            <h2><i class="fa fa-id-card"></i> Cadastro de Contato</h2>
+        </div>
+    </div>
+    <div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox float-e-margins panel-success" id="ibox_01">
+                    <div class="ibox-title">
+                        <h5>
+                            <i class="fa fa-id-card fa-lg"></i>
+                            &nbsp;&nbsp;&nbsp;
+                            Contato
+                        </h5>
+                    </div>
+                    <div class="ibox-content">
+                        @Html.Partial("_DadosIdentificacao", Model)
+                        <p>&nbsp;</p>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div id="Div_List">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Styles {
+    @Styles.Render("~/Content/plugins/dataTables/dataTablesStyles")
+}
+@section Scripts {
+
+    @Scripts.Render("~/plugins/validate")
+    @Scripts.Render("~/plugins/dataTables")
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            Load_List();
+
+            jQuery("input.fone")
+                .mask("(99) 9999-9999?9")
+                .focusout(function (event) {
+                    var target, phone, element;
+                    target = (event.currentTarget) ? event.currentTarget : event.srcElement;
+                    phone = target.value.replace(/\D/g, '');
+                    element = $(target);
+                    element.unmask();
+                    if (phone.length > 10) {
+                        element.mask("(99) 99999-999?9");
+                    } else {
+                        element.mask("(99) 9999-9999?9");
+                    }
+                });
+        });
+
+       function Load_List() {
+            $("#Div_List").load('@Url.Content("~/Home/LoadingPartial")', function () {
+                var url = "/Home/Load_List";
+                url += '?dt=' + (new Date()).getTime();
+                $("#Div_List").load(url, function () {
+                });
+            });
+        }
+
+       function Salvar_Contato() {
+            var Erro_CONT = 0;
+
+            $(".required_CONT").each(function () {
+                $(this).removeClass("error");
+            });
+            $(".required_CONT").each(function () {
+                if ($("#" + this.id).val() == "" || $("#" + this.id).val() == null) {
+                    $(this).addClass("error");
+                    Erro_CONT = 1;
+                }
+            });
+
+            if ((Erro_CONT) > 0) {
+                toastr.warning("Preencha todos os campos obrigatórios");
+                return false;
+            }
+
+           var Contato = {
+               "Id": 0,
+               "Nome": $("#txtNome").val(),
+               "Telefone": $("#txtTelefone").val().replace('(', '').replace(')', '').replace('-', '').replace(' ', ''),
+               "Celular": $("#txtCelular").val().replace('(', '').replace(')', '').replace('-', '').replace(' ', '')
+           };
+
+            $(function () {
+                $.ajax({
+                    dataType: "json",
+                    type: "POST",
+                    cache: false,
+                    data: {
+                        strContato: JSON.stringify(Contato),
+                    },
+                    url: ' @Url.Content("/Home/Create_CS")',
+                    success: function (data) {
+                        if (data.IdErro == 0) {
+                            toastr.success("Contato salvo com sucesso.");
+                            Load_List();
+                            LimparContato();
+                        }
+                        else {
+                            toastr.error(data.Msg);
+                        }
+                    },
+                    error: function (xhr, textStatus, exceptionThrown) {
+                        toastr.error(xhr + textStatus);
+                    },
+                });
+            });
+        }
+        function ExcluirContato(id) {
+            $(function () {
+                $.ajax({
+                    dataType: "json",
+                    type: "GET",
+                    cache: false,
+                    data: {
+                        Id: id,
+                    },
+                    url: ' @Url.Content("~/Home/Excluir_CS")',
+                    success: function (data) {
+                        if (data.IdErro == 0) {
+                            toastr.success("Contato excluido com sucesso.");
+                            Load_List();
+                        } else {
+                            toastr.error(data.Msg);
+                        }
+                    },
+                    error: function (xhr, textStatus, exceptionThrown) {
+                        toastr.error(xhr + textStatus + exceptionThrown);
+                    },
+                });
+            });
+        }
+        function LimparContato() {
+            $("#txtNome").val('');
+            $("#txtTelefone").val('');
+            $("#txtCelular").val('');
+        }
+    </script>
+}

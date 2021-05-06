@@ -1,0 +1,10 @@
+C:\_Projetos\ActionTest\ActionTest.Model\bin\Debug\ActionTest.Model.dll.config
+C:\_Projetos\ActionTest\ActionTest.Model\bin\Debug\ActionTest.Model.dll
+C:\_Projetos\ActionTest\ActionTest.Model\bin\Debug\ActionTest.Model.pdb
+C:\_Projetos\ActionTest\ActionTest.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\_Projetos\ActionTest\ActionTest.Model\bin\Debug\EntityFramework.dll
+C:\_Projetos\ActionTest\ActionTest.Model\obj\Debug\ActionTest.Model.csprojAssemblyReference.cache
+C:\_Projetos\ActionTest\ActionTest.Model\obj\Debug\ActionTest.Model.csproj.CoreCompileInputs.cache
+C:\_Projetos\ActionTest\ActionTest.Model\obj\Debug\ActionTest.Model.csproj.CopyComplete
+C:\_Projetos\ActionTest\ActionTest.Model\obj\Debug\ActionTest.Model.dll
+C:\_Projetos\ActionTest\ActionTest.Model\obj\Debug\ActionTest.Model.pdb

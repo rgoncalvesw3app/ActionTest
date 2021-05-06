@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XAXznklr22bqzocyiAPv7j5RADaIiOUjDK+ZqKSilwg7EkHotxHW40PdNRDO+FAqyJhKdQyzJAszEFXAa8S2MA==",
+  "success": true,
+  "projectFilePath": "C:\\_Projetos\\ActionTest\\ActionTest.BLL\\ActionTest.BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}
