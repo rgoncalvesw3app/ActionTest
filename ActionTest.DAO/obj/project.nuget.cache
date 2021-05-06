@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sJ+A5vXtlCckDAWXUXt5S6uF+BRnmOVTCDylf++gvj7qKEatFJYpDu8GfJP5zQ6QOFDwDV19deKZxfo2cY48VA==",
+  "dgSpecHash": "eyhsRD4A8suYvJuFU13YQttb0iCEA3IAeZbjdLnbNg0491On72lrrtCGpXcOzTEJkvP4BengoZzA45VSg+I49w==",
   "success": true,
-  "projectFilePath": "C:\\_Projetos\\ActionTest\\ActionTest.DAO\\ActionTest.DAO.csproj",
+  "projectFilePath": "C:\\_Projetos\\Action\\ActionTest.DAO\\ActionTest.DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
   ],

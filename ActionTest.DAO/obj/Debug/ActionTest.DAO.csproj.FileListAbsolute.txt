@@ -10,3 +10,15 @@ C:\_Projetos\ActionTest\ActionTest.DAO\obj\Debug\ActionTest.DAO.csproj.CoreCompi
 C:\_Projetos\ActionTest\ActionTest.DAO\obj\Debug\ActionTest.DAO.csproj.CopyComplete
 C:\_Projetos\ActionTest\ActionTest.DAO\obj\Debug\ActionTest.DAO.dll
 C:\_Projetos\ActionTest\ActionTest.DAO\obj\Debug\ActionTest.DAO.pdb
+C:\_Projetos\Action\ActionTest.DAO\bin\Debug\ActionTest.DAO.dll
+C:\_Projetos\Action\ActionTest.DAO\bin\Debug\ActionTest.DAO.pdb
+C:\_Projetos\Action\ActionTest.DAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\_Projetos\Action\ActionTest.DAO\bin\Debug\EntityFramework.dll
+C:\_Projetos\Action\ActionTest.DAO\bin\Debug\ActionTest.Model.dll
+C:\_Projetos\Action\ActionTest.DAO\bin\Debug\ActionTest.Model.pdb
+C:\_Projetos\Action\ActionTest.DAO\bin\Debug\ActionTest.Model.dll.config
+C:\_Projetos\Action\ActionTest.DAO\obj\Debug\ActionTest.DAO.csprojAssemblyReference.cache
+C:\_Projetos\Action\ActionTest.DAO\obj\Debug\ActionTest.DAO.csproj.CoreCompileInputs.cache
+C:\_Projetos\Action\ActionTest.DAO\obj\Debug\ActionTest.DAO.csproj.CopyComplete
+C:\_Projetos\Action\ActionTest.DAO\obj\Debug\ActionTest.DAO.dll
+C:\_Projetos\Action\ActionTest.DAO\obj\Debug\ActionTest.DAO.pdb

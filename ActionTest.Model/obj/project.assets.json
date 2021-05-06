@@ -153,11 +153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_Projetos\\ActionTest\\ActionTest.Model\\ActionTest.Model.csproj",
+      "projectUniqueName": "C:\\_Projetos\\Action\\ActionTest.Model\\ActionTest.Model.csproj",
       "projectName": "ActionTest.Model",
-      "projectPath": "C:\\_Projetos\\ActionTest\\ActionTest.Model\\ActionTest.Model.csproj",
+      "projectPath": "C:\\_Projetos\\Action\\ActionTest.Model\\ActionTest.Model.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\_Projetos\\ActionTest\\ActionTest.Model\\obj\\",
+      "outputPath": "C:\\_Projetos\\Action\\ActionTest.Model\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

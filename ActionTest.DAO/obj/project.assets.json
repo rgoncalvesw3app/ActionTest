@@ -211,11 +211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_Projetos\\ActionTest\\ActionTest.DAO\\ActionTest.DAO.csproj",
+      "projectUniqueName": "C:\\_Projetos\\Action\\ActionTest.DAO\\ActionTest.DAO.csproj",
       "projectName": "ActionTest.DAO",
-      "projectPath": "C:\\_Projetos\\ActionTest\\ActionTest.DAO\\ActionTest.DAO.csproj",
+      "projectPath": "C:\\_Projetos\\Action\\ActionTest.DAO\\ActionTest.DAO.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\_Projetos\\ActionTest\\ActionTest.DAO\\obj\\",
+      "outputPath": "C:\\_Projetos\\Action\\ActionTest.DAO\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -236,8 +236,8 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\_Projetos\\ActionTest\\ActionTest.Model\\ActionTest.Model.csproj": {
-              "projectPath": "C:\\_Projetos\\ActionTest\\ActionTest.Model\\ActionTest.Model.csproj"
+            "C:\\_Projetos\\Action\\ActionTest.Model\\ActionTest.Model.csproj": {
+              "projectPath": "C:\\_Projetos\\Action\\ActionTest.Model\\ActionTest.Model.csproj"
             }
           }
         }

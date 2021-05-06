@@ -12,3 +12,17 @@ C:\_Projetos\ActionTest\ActionTest.BLL\obj\Debug\ActionTest.BLL.csproj.CoreCompi
 C:\_Projetos\ActionTest\ActionTest.BLL\obj\Debug\ActionTest.BLL.csproj.CopyComplete
 C:\_Projetos\ActionTest\ActionTest.BLL\obj\Debug\ActionTest.BLL.dll
 C:\_Projetos\ActionTest\ActionTest.BLL\obj\Debug\ActionTest.BLL.pdb
+C:\_Projetos\Action\ActionTest.BLL\bin\Debug\ActionTest.BLL.dll
+C:\_Projetos\Action\ActionTest.BLL\bin\Debug\ActionTest.BLL.pdb
+C:\_Projetos\Action\ActionTest.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\_Projetos\Action\ActionTest.BLL\bin\Debug\EntityFramework.dll
+C:\_Projetos\Action\ActionTest.BLL\bin\Debug\ActionTest.DAO.dll
+C:\_Projetos\Action\ActionTest.BLL\bin\Debug\ActionTest.Model.dll
+C:\_Projetos\Action\ActionTest.BLL\bin\Debug\ActionTest.DAO.pdb
+C:\_Projetos\Action\ActionTest.BLL\bin\Debug\ActionTest.Model.pdb
+C:\_Projetos\Action\ActionTest.BLL\bin\Debug\ActionTest.Model.dll.config
+C:\_Projetos\Action\ActionTest.BLL\obj\Debug\ActionTest.BLL.csprojAssemblyReference.cache
+C:\_Projetos\Action\ActionTest.BLL\obj\Debug\ActionTest.BLL.csproj.CoreCompileInputs.cache
+C:\_Projetos\Action\ActionTest.BLL\obj\Debug\ActionTest.BLL.csproj.CopyComplete
+C:\_Projetos\Action\ActionTest.BLL\obj\Debug\ActionTest.BLL.dll
+C:\_Projetos\Action\ActionTest.BLL\obj\Debug\ActionTest.BLL.pdb
